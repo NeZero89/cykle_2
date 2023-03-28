@@ -101,7 +101,7 @@ System.out.println("Год "+i+", численность населения со
             if (i % 79 == 0)
                 if (i > ourDays - past)
                     if (i < ourDays + future)
-                        System.out.println(i);
+                        System.out.println("комета пролетит в "+i+" году");
 
         }
     }}
